@@ -1,0 +1,11 @@
+C:\Users\pascal\OneDrive\S9-ENSPD\Conception des SE\StarOS\StarOS\bootloader.c;C:\Users\pascal\OneDrive\S9-ENSPD\Conception des SE\StarOS\StarOS\x64\Debug\bootloader.obj
+C:\Users\pascal\OneDrive\S9-ENSPD\Conception des SE\StarOS\StarOS\interrupt.cpp;C:\Users\pascal\OneDrive\S9-ENSPD\Conception des SE\StarOS\StarOS\x64\Debug\interrupt.obj
+C:\Users\pascal\OneDrive\S9-ENSPD\Conception des SE\StarOS\StarOS\keyboard.cpp;C:\Users\pascal\OneDrive\S9-ENSPD\Conception des SE\StarOS\StarOS\x64\Debug\keyboard.obj
+C:\Users\pascal\OneDrive\S9-ENSPD\Conception des SE\StarOS\StarOS\main.cpp;C:\Users\pascal\OneDrive\S9-ENSPD\Conception des SE\StarOS\StarOS\x64\Debug\main.obj
+C:\Users\pascal\OneDrive\S9-ENSPD\Conception des SE\StarOS\StarOS\memory.cpp;C:\Users\pascal\OneDrive\S9-ENSPD\Conception des SE\StarOS\StarOS\x64\Debug\memory.obj
+C:\Users\pascal\OneDrive\S9-ENSPD\Conception des SE\StarOS\StarOS\kernel.cpp;C:\Users\pascal\OneDrive\S9-ENSPD\Conception des SE\StarOS\StarOS\x64\Debug\kernel.obj
+C:\Users\pascal\OneDrive\S9-ENSPD\Conception des SE\StarOS\StarOS\paging.cpp;C:\Users\pascal\OneDrive\S9-ENSPD\Conception des SE\StarOS\StarOS\x64\Debug\paging.obj
+C:\Users\pascal\OneDrive\S9-ENSPD\Conception des SE\StarOS\StarOS\process.cpp;C:\Users\pascal\OneDrive\S9-ENSPD\Conception des SE\StarOS\StarOS\x64\Debug\process.obj
+C:\Users\pascal\OneDrive\S9-ENSPD\Conception des SE\StarOS\StarOS\screen.cpp;C:\Users\pascal\OneDrive\S9-ENSPD\Conception des SE\StarOS\StarOS\x64\Debug\screen.obj
+C:\Users\pascal\OneDrive\S9-ENSPD\Conception des SE\StarOS\StarOS\utils.cpp;C:\Users\pascal\OneDrive\S9-ENSPD\Conception des SE\StarOS\StarOS\x64\Debug\utils.obj
+C:\Users\pascal\OneDrive\S9-ENSPD\Conception des SE\StarOS\StarOS\vectors.cpp;C:\Users\pascal\OneDrive\S9-ENSPD\Conception des SE\StarOS\StarOS\x64\Debug\vectors.obj

@@ -1,0 +1,13 @@
+﻿  bootloader.c
+  interrupt.cpp
+  keyboard.cpp
+  main.cpp
+  memory.cpp
+  kernel.cpp
+  paging.cpp
+  process.cpp
+  screen.cpp
+  utils.cpp
+  vectors.cpp
+  Génération de code en cours...
+  StarOS.vcxproj -> C:\Users\pascal\OneDrive\S9-ENSPD\Conception des SE\StarOS\StarOS\x64\Debug\StarOS.exe

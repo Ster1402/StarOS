@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\kernel">
+      <UniqueIdentifier>{7f7fbb76-a507-447e-b193-29a2ca4ff02f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\kernel\memory">
+      <UniqueIdentifier>{170f2c89-d48b-4145-9624-918a8359c875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\bootloader">
+      <UniqueIdentifier>{053e523a-6618-433d-8bc4-9c2beef85d0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="docs">
+      <UniqueIdentifier>{e09fd603-b271-4060-8f2b-1a6df1d3fc32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\kernel\interrupts">
+      <UniqueIdentifier>{4381bc36-34f4-46c5-aadb-d7af076110a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\utils">
+      <UniqueIdentifier>{9e9b328d-2559-4370-85c7-c5ca3fd252ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\drivers">
+      <UniqueIdentifier>{355aee94-4556-4e59-ad55-87ca41dc576e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\kernel\processes">
+      <UniqueIdentifier>{d36aa8bf-384c-4c34-ba69-0d6fbb09fd0b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bootloader.c">
+      <Filter>Fichiers sources\bootloader</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>Fichiers sources\kernel\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="paging.cpp">
+      <Filter>Fichiers sources\kernel\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="interrupt.cpp">
+      <Filter>Fichiers sources\kernel\interrupts</Filter>
+    </ClCompile>
+    <ClCompile Include="vectors.cpp">
+      <Filter>Fichiers sources\kernel\interrupts</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Fichiers sources\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="screen.cpp">
+      <Filter>Fichiers sources\drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>Fichiers sources\drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="process.cpp">
+      <Filter>Fichiers sources\kernel\processes</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel.cpp">
+      <Filter>Fichiers sources\kernel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Structure.md" />
+    <None Include="bootloader.asm">
+      <Filter>Fichiers sources\bootloader</Filter>
+    </None>
+    <None Include="bootloader.ld">
+      <Filter>Fichiers sources\bootloader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
