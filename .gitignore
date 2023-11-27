@@ -33,3 +33,6 @@
 
 # Vs
 *.opendb
+*.pdb
+*.*log
+*.log
